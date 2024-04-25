@@ -15,7 +15,7 @@ function start(){
     restyle();
     result.setAttribute("placeholder","");
     computer.setAttribute("placeholder","");
-    frm1.player.value = 0
+    frm1.player.value = 0;
     
 }
 function validate(e){
