@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Number Guesser</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    
+    <h1>Guess The Number</h1>
+    <p id="player">Your Guess:-</p>
+    <form name="frm1" id="frm1">
+    <input type="Number" id="play-guess" name="player"></form>
+    <p id="computer">The Lucky Number:-</p>
+    <input type="Number" id="com-guess" disabled placeholder=" ">
+    <p id="result">Result:-</p>
+    <input type="Text" id="wResult" disabled placeholder="">
+    <input type="submit" onclick="play()" id="submit" value="Let's Go">
+    <input type="button" onclick="start()" id="restart" value="Restart">
+</body>
+<script src="script.js"></script>
+</html>
